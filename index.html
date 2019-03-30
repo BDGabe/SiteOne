@@ -1,18 +1,38 @@
-<html>
-  <title>
-    Hello World
-  </title>
-  
-  <body>
-    <h1>Practice webpage</h1>
-  </body>
-  
-  <style>
-    body{
-      background.color:blue;
-      color:#fff;
-      text-align:center;
-    }
-  </style>
-  
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <title>To Claudia</title>
+</head>
+<body onload="checkValentinesDate();">
+      
+    <h1>Geology Puns<br>For a very special person!</h1>
+    <div id="punDisplay">
+        <!--Pun Here-->
+        I hope you love it as much as I love you!
+    </div>
+    <div id="punGen">
+        <button class="button" onclick="newPun()">New Pun!</button>
+    </div>
+    <form>
+        <div>
+            <input id="newPun" type="text" placeholder="Add your pun!" />
+            <input type="button" class="button" value="save" onclick="addPun()" />
+        </div>
+    </form>
+    <div id="punConfirm">
+      <!--Pun Confirmation-->
+        No new puns yet? D:
+    </div>
+    <br>
+    <div>
+        Is it Valentines Day yet?
+    </div>
+    <div id="isitValentines">
+        <!--Confirm/Deny here-->
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
