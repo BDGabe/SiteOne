@@ -1,0 +1,106 @@
+.button
+{
+    background-color: crimson;
+    color: navajowhite;
+    padding: 7.5px 20px;
+    text-align: center;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 4px #999;
+}
+
+.button:hover
+{
+    background-color: brown;
+}
+
+.button:active
+{
+    background-color: brown;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px)
+}
+
+input[type=text]:empty
+{
+    outline: none;
+    background-color: gainsboro;
+}
+
+input[type=text]:focus
+{
+    outline: none;
+    border: 3px solid #555;
+    background-color: gainsboro;
+}
+
+h1
+{
+    font-size: 40px;
+    color: gainsboro;
+    font-family: 'Trebuchet MS';
+    margin-top: 7.5%;
+    text-align: center;
+}
+
+body 
+{
+    color: gainsboro;
+    text-shadow: 2px 2px 4px #000000, 0px 0px 4px #000000;
+    font-family: Arial;
+    -webkit-animation-direction: alternate-reverse;
+    animation: myfirst 10s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes myfirst {
+    0% {
+        background: #FC4A1A;
+        background-image: url('https://i.imgur.com/4aejBOF.png');
+        background-repeat: no-repeat;
+        background-position: center 375px;
+    }
+    100% {
+        background: #F7B733;
+        background-image: url('https://i.imgur.com/4aejBOF.png');
+        background-repeat: no-repeat;
+        background-position: center 375px;
+    }
+}
+
+div
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+button
+{
+    text-align: center;
+}
+
+input
+{
+    align-items: center;
+}
+
+#punGen 
+{
+    padding-bottom: 10px;
+}
+
+#punConfirm
+{
+    padding-top: 10px;
+}
+
+#punDisplay 
+{
+    font-size: 25px;
+    margin: auto;
+    top: 10px;
+    width: 600px;
+    border-top: thin solid;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
