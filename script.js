@@ -31,7 +31,8 @@ var puns = [
     'Baby are you peridot? Because I can see you on a beach in Hawaii.',
     'Not even a supercontinent rift could break us apart. <3',
     'Jur-ASS-tastic.',
-    'Silica deez nuts'
+    'Silica deez nuts',
+    'If the end of the world comes, I\'d Triassic cuddle with you~'
 ]
 
 var yourPun = document.getElementById("newPun");
