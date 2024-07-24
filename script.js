@@ -26,6 +26,12 @@ var puns = [
     'You\'re a groundbreaking person!',
     'I wish I was boulder, so I could take you out!',
     'We make a rock solid couple.',
+    'Our chemistry is ionic.',
+    'I\'m magnetite to your magnet',
+    'Baby are you peridot? Because I can see you on a beach in Hawaii.',
+    'Not even a supercontinent rift could break us apart. <3',
+    'Jur-ASS-tastic.',
+    'Silica deez nets'
 ]
 
 var yourPun = document.getElementById("newPun");
